@@ -1,0 +1,14 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");*/
+
+#admin__navbar {
+  width: 100%;
+  background-color: #fff;
+  transition: all 0.2s;
+  border-bottom: 1px solid #e8e9ed;
+}
+
+
+#nav__menu .nav-item .nav-link {
+  color: #954545b8;
+}

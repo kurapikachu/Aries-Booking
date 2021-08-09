@@ -1,0 +1,18 @@
+.profile-container {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+.profile-content .profile-card {
+  margin-bottom: 30px;
+  border: 0;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15);
+  border-radius: 0.375rem;
+  background-color: #fff;
+  background-clip: border-box;
+  height: 100%;
+}
+
+.profile-content .profile-card td {
+  padding: 10px;
+}

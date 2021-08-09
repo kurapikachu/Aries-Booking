@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+#home__navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #fffffff5;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15);
+  z-index: 9;
+  transition: all 0.2s;
+}
+
+.brand-name {
+  margin-left: 20px;
+  color: rgb(138, 27, 27);
+  /* font-family: "Righteous", cursive; */
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.just-a-div {
+  height: 58px;
+}
+
+#nav__menu .nav-item .nav-link {
+  color: #954545b8;
+}
+
+#sign-in-btn {
+  border-radius: 10%;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px;
+  color: #fff;
+  width: 87px;
+  height: 40px;
+  background: linear-gradient(to left, #ff5f6d, #ffc371);
+  border: none;
+}

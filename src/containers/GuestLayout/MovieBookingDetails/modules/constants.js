@@ -1,0 +1,3 @@
+export const MOVIE_DETAILS_PAGE_REQUEST = "movieDetailsReducer/MOVIE_DETAILS_PAGE_REQUEST";
+export const MOVIE_DETAILS_SUCCESS = "movieDetailsReducer/MOVIE_DETAILS_PAGE_SUCCESS";
+export const MOVIE_DETAILS_FAILED = "movieDetailsReducer/MOVIE_DETAILS_PAGE_FAILED";

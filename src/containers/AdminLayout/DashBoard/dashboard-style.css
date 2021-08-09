@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.btn-shadow {
+    box-shadow: 0 0.125rem 0.625rem rgb(255 193 7), 0 0.0625rem 0.125rem rgb(255 193 7);
+    padding: 4px 15px;
+}
+
+.btn-submit {
+    text-align: center;
+}
+
+.dashboard__card {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 4px;
+}
+
+.card-shadow {
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+}
+
+/*-------------------------------------------------------------*/
+.dashboard__card .card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    padding: 25px;
+    margin-top: 14px;
+}
+
+.dashboard__card .card__header .card__header-title h2 {
+    color: #1890FF;
+    font-size: 34px;
+    font-weight: 300;
+    font-family: 'Poiret One', cursive;
+}
+
+.dashboard__card .card__header .card__header-actions {
+    display: flex;
+}
+
+.dashboard__card .card__header .card__header-actions .add-btn {
+    color: #775b08;
+    background-color: #ffd764;
+    border-color: #ffd764;
+    margin-left: 20px;
+    transition: all 0.2s;
+}
+
+.dashboard__card .card__header .card__header-actions .add-btn:hover {
+    background-color: rgb(255 223 129);
+    text-decoration: none;
+}
+
+.dashboard__card .card__body {
+    padding: 25px;
+}

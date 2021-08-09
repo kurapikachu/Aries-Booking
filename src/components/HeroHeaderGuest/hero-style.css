@@ -1,0 +1,191 @@
+/* =============== 1. COMPONENT: HEADER ===============*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  margin-top: 60px;
+  padding: 1em;
+  box-sizing: border-box;
+  color: white;
+  /* background: url("https://images2.alphacoders.com/789/thumb-1920-789853.jpg")
+    center center no-repeat; */
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("https://images2.alphacoders.com/789/thumb-1920-789853.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+/* CSS for form */
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+}
+
+.hero-content form {
+  width: 100%;
+  max-width: 700px;
+}
+
+.hero-content form .inner-form {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 34px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.hero-content form .inner-form .input-field {
+  height: 55px;
+}
+
+.hero-content form .inner-form .input-field input {
+  height: 100%;
+  background: transparent;
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.hero-content form .inner-form .input-field input.placeholder {
+  color: #222;
+  font-size: 16px;
+}
+
+.hero-content form .inner-form .input-field input:-moz-placeholder {
+  color: #222;
+  font-size: 16px;
+}
+
+.hero-content form .inner-form .input-field input::-webkit-input-placeholder {
+  color: #222;
+  font-size: 16px;
+}
+
+.hero-content form .inner-form .input-field input:hover,
+.hero-content form .inner-form .input-field input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.hero-content form .inner-form .input-field.first-wrap {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f1ebd9;
+  width: 400px;
+}
+
+.hero-content form .inner-form .input-field.first-wrap input {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-content form .inner-form .input-field.first-wrap .svg-wrapper {
+  min-width: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-content form .inner-form .input-field.first-wrap svg {
+  width: 36px;
+  height: 36px;
+  fill: #222;
+}
+
+.hero-content form .inner-form .input-field.second-wrap {
+  min-width: 150px;
+}
+
+.hero-content form .inner-form .input-field.second-wrap .btn-search {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 15px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  letter-spacing: 2px;
+  z-index: 0;
+  background: orange;
+  transition: all 0.2s ease-out, color 0.2s ease-out;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-content form .inner-form .input-field.second-wrap .btn-search:hover {
+  background: #009451;
+}
+
+.hero-content form .inner-form .input-field.second-wrap .btn-search:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.hero-content form .info {
+  font-size: 15px;
+  color: #ccc;
+  padding-left: 26px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-content form .inner-form .input-field {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-content form .inner-form .input-field.first-wrap .svg-wrapper {
+    min-width: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .hero-content form .inner-form .input-field.first-wrap svg {
+    width: 26px;
+    height: 26px;
+    fill: #222;
+  }
+  .hero-content form .inner-form .input-field.second-wrap {
+    min-width: 100px;
+  }
+  .hero-content form .inner-form .input-field.second-wrap .btn-search {
+    font-size: 13px;
+  }
+}
+
+/* =============== End 1. COMPONENT: HEADER ===============*/

@@ -1,0 +1,69 @@
+/* ========== CINEMA List ========== */
+.cinema-list-item {
+    border: 1px dashed #007bff;
+    background-color: #d6e5ffbf;
+    box-shadow: 3px 4px 2px #007bff8a;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 10px;
+    transition: border 0.8s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.cinema-list-item:hover {
+    border: 1px solid #007bff;
+    background-color: #a6c5fbbf;
+    box-shadow: 3px 4px 6px #007bff8a;
+}
+
+.cinema-list-item .item__content {
+    padding: 10px 2px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.cinema-list-item .cinema-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cinema-list-item .cinema-text {
+    text-align: center;
+    margin: 5px auto;
+}
+
+.cinema-list-item .cinema-logo img {
+    width: 35%;
+}
+
+.cinema-list-item .cinema-title-small {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #474444;
+}
+
+.cinema-list-item .cinema-location {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.cinema-list-item .cinema-select {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cinema-list-item .cinema-select button {
+    padding: 5px 25px;
+    background-color: cornflowerblue;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.cinema-list-item .cinema-select button:hover {
+    color: rgb(0, 39, 112);
+}
+/* ========== CINEMA List ========== */

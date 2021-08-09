@@ -1,0 +1,59 @@
+/*General*/
+.section {
+  padding: 27px 0;
+}
+
+.section__header {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 37px;
+}
+
+.section__icon {
+  width: 40px;
+}
+.section__title {
+  font-family: "Staatliches", cursive;
+  margin: 0 0 0 15px;
+}
+
+.showtime-shadow {
+  padding-top: 18px;
+  border-radius: 8px;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+}
+
+/*Trending*/
+.trending {
+  padding: 30px 0 60px 0;
+  margin: 20px 0;
+}
+
+/* =============== 2. COMPONENT: CAROUSEL ===============*/
+.slick-next:before {
+  color: #c53131 !important;
+}
+
+.slick-prev:before {
+  color: #c53131 !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 40px !important;
+}
+
+.slick-prev {
+  left: -44px !important;
+}
+
+/* =============== 3. COMPONENT: Cinema Carousel ===============*/
+.cinema-list-section {
+  padding-bottom: 78px;
+}
+
+/* =============== 4. SHOW TIME ===============*/
+
+.grey-background {
+  background-color: #f8f9fe !important;
+  padding: 20px 0 100px 0;
+}
